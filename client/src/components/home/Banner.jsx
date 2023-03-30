@@ -38,8 +38,8 @@ const Banner = () => {
             infinite={true}
             keyBoardControl={true}
             slidesToSlide ={1}     
-            // autoPlay ={true}
-            // autoPlaySpeed ={4000}
+            autoPlay ={true}
+            autoPlaySpeed ={4000}
 
         >
             {
