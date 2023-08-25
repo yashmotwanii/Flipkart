@@ -3,10 +3,13 @@ import dotenv from "dotenv";
 
 import Connection from "./database/db.js";
 import DefaultData from "./default.js";
+import router from "./routes/route.js";
 
 const app = express();
 
 dotenv.config();
+
+app.use('/', router);
 
 const PORT = 8000;
 
